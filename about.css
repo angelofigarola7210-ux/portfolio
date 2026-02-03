@@ -16,13 +16,14 @@
   padding: 2rem;
   gap: 2rem;
   align-items: flex-start;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
 }
 
-/* Hover effect for card */
+/* Hover effect for About card */
 .about-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  transform: translateY(-5px);       /* subtle lift like project cards */
+  border-color: #38bdf8;             /* matches project card hover */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* adds depth */
 }
 
 /* Image */
