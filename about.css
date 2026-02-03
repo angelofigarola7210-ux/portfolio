@@ -1,0 +1,64 @@
+/* About Page Layout */
+.content {
+  max-width: 900px;
+  margin: 3rem auto;
+  padding: 0 1.5rem;
+  color: #e5e7eb;
+}
+
+/* Card container */
+.about-card {
+  display: flex;
+  flex-wrap: wrap; /* stacks on smaller screens */
+  background-color: #0f172a;
+  border: 1px solid #1e293b;
+  border-radius: 10px;
+  padding: 2rem;
+  gap: 2rem;
+  align-items: flex-start;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Hover effect for card */
+.about-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Image */
+.about-card img {
+  max-width: 200px;
+  border-radius: 10px;
+  flex-shrink: 0;
+}
+
+/* Text area */
+.about-text {
+  flex: 1;
+  min-width: 250px;
+}
+
+/* Headings */
+.content h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.about-text h2 {
+  font-size: 1.6rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Paragraphs */
+.about-text p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+/* List styling */
+.about-text ul {
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+}
