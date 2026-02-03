@@ -4,8 +4,12 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Project 1: Café Menu | Angelo</title>
+
+  <!-- Shared styles -->
   <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="project1.css" /> <!-- optional project-specific -->
+
+  <!-- Project-specific styles -->
+  <link rel="stylesheet" href="project1.css" />
 </head>
 <body>
 
@@ -22,19 +26,29 @@
     </div>
   </nav>
 
-  <!-- Main Content -->
+  <!-- Page Content -->
   <main class="content">
     <h1>Project 1: Café Menu</h1>
-    <p>A styled café menu webpage built with HTML and CSS focusing on layout, typography, and visual design.</p>
+    <p>
+      A styled café menu webpage built with HTML and CSS focusing on layout,
+      typography, and visual design.
+    </p>
 
-     <div class="menu">
-      <main>
+    <!-- Café Menu Project -->
+    <div class="menu">
+      <div class="menu-content">
+
         <h1>CAMPER CAFE</h1>
         <p class="established">Est. 2020</p>
         <hr>
+
         <section>
           <h2>Coffee</h2>
-          <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/coffee.jpg" alt="coffee icon"/>
+          <img
+            src="https://cdn.freecodecamp.org/curriculum/css-cafe/coffee.jpg"
+            alt="coffee icon"
+          />
+
           <article class="item">
             <p class="flavor">French Vanilla</p><p class="price">3.00</p>
           </article>
@@ -51,9 +65,14 @@
             <p class="flavor">Mocha</p><p class="price">4.50</p>
           </article>
         </section>
+
         <section>
           <h2>Desserts</h2>
-          <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/pie.jpg" alt="pie icon"/>
+          <img
+            src="https://cdn.freecodecamp.org/curriculum/css-cafe/pie.jpg"
+            alt="pie icon"
+          />
+
           <article class="item">
             <p class="dessert">Donut</p><p class="price">1.50</p>
           </article>
@@ -67,18 +86,22 @@
             <p class="dessert">Cinnamon Roll</p><p class="price">2.50</p>
           </article>
         </section>
-      </main>
-      <hr class="bottom-line">
-      <footer>
-        <address>
-          <p>
-            <a href="https://www.freecodecamp.org" target="_blank">Visit our website</a>
-          </p>
-          <p class="address">123 Free Code Camp Drive</p>
-        </address>
-      </footer>
+
+        <hr class="bottom-line">
+
+        <footer>
+          <address>
+            <p>
+              <a href="https://www.freecodecamp.org" target="_blank">
+                Visit our website
+              </a>
+            </p>
+            <p class="address">123 Free Code Camp Drive</p>
+          </address>
+        </footer>
+
+      </div>
     </div>
-    
   </main>
 
 </body>

@@ -1,0 +1,93 @@
+/* Café Menu Wrapper */
+.menu {
+  background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+  padding: 20px;
+}
+
+/* Menu Card */
+.menu-content {
+  width: 80%;
+  background-color: burlywood;
+  margin: auto;
+  padding: 20px;
+  max-width: 500px;
+}
+
+/* Typography */
+.menu h1 {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-family: Impact, serif;
+}
+
+.menu h2 {
+  font-size: 30px;
+  font-family: Impact, serif;
+}
+
+.menu p {
+  text-align: center;
+}
+
+.established {
+  font-style: italic;
+}
+
+/* Images */
+.menu img {
+  display: block;
+  margin: -25px auto 0;
+}
+
+/* Divider */
+.menu hr {
+  height: 2px;
+  background-color: brown;
+  border-color: brown;
+}
+
+.bottom-line {
+  margin-top: 25px;
+}
+
+/* Menu Items */
+.item p {
+  display: inline-block;
+  margin: 5px 0;
+  font-size: 18px;
+}
+
+.flavor,
+.dessert {
+  text-align: left;
+  width: 75%;
+}
+
+.price {
+  text-align: right;
+  width: 25%;
+}
+
+/* Footer */
+.menu footer {
+  font-size: 14px;
+}
+
+.menu address {
+  font-style: normal;
+}
+
+.address {
+  margin-bottom: 5px;
+}
+
+/* Links (scoped — does NOT affect navbar) */
+.menu a {
+  color: black;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  color: brown;
+}
