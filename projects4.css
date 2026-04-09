@@ -1,0 +1,83 @@
+#main {
+    margin-top: 100px;
+}
+body {
+    background: black;
+    color: white;
+    font-family: monospace;
+    text-align: center;
+}
+
+/* Clock + Stopwatch base style */
+#time, #stopwatch {
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: 4px;
+
+    /* Rainbow gradient */
+    background: linear-gradient(
+        90deg,
+        red,
+        orange,
+        yellow,
+        lime,
+        cyan,
+        blue,
+        violet,
+        red
+    );
+
+    background-size: 300%;
+
+    /* Clip gradient to text */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    /* Glow effect */
+    text-shadow:
+        0 0 5px rgba(255,255,255,0.3),
+        0 0 10px rgba(255,255,255,0.5),
+        0 0 20px rgba(255,255,255,0.8);
+
+    /* Animation */
+    animation: rainbowFlow 6s linear infinite;
+}
+
+
+#date {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+/* Buttons styling */
+button {
+    margin: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+
+    background: #111;
+    color: white;
+
+    box-shadow: 0 0 10px rgba(255,255,255,0.3);
+}
+
+button:hover {
+    background: #222;
+}
+
+/* Rainbow animation */
+@keyframes rainbowFlow {
+    0% {
+        background-position: 0%;
+    }
+    100% {
+        background-position: 300%;
+    }
+}
+#stopwatch {
+    animation: rainbowFlow 6s linear infinite, pulse 1.5s ease-in-out infinite;
+}
+
